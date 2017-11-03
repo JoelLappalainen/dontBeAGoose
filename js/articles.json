@@ -1,0 +1,23 @@
+{
+"articles":[
+
+	{
+	"img_url"		:	"http://jdata.vespa.com/mediaObject/vespa-html/img-modello/600x600resized/Primavera_600x600b/original/Primavera_600x600b.jpg",
+	"img_name"		: 	"Vanha sininen Vespa",
+	"img_text"		:	"Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hen"
+	},
+
+	{
+
+	"img_url"		:	"http://indulgy.ccio.co/EF/h7/EC/VespaScooterByNiklasWagner02.jpg",
+	"img_name"		: 	"Tulevaisuuden Vespa-malli",
+	"img_text"		:	"uis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hen"
+	},
+
+	{
+
+	"img_url"		:	".../images/KansilehtiVerkko.",
+	"img_name"		:   "Future Bikes Magazine",
+	"img_text"		:	"ilisis sed sapien.  vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hen"
+	}
+]}
