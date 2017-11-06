@@ -1,204 +1,238 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="author" content="Joel Lappalainen">
-		<meta name=viewport content="width=device-width, initial-scale=1">
-		<link rel="icon" href="images/favicon.png">
-		<title>Future of Vespa motorcycles</title>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="container-fluid" id="first-page">
 
-			<!-- MOBILE NAV -->
-		 	<nav class="navbar-default row" id="mobile-nav">
-			  <div  id="mobile-container">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#first-page">Vespa.</a>
-			    </div>
-			    <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav" id="dropdown">
-				        <li><a href="#first-page" class="color-change">Main</a></li>
-				        <li><a href="#second-page">News</a></li>
-				        <li><a href="#third-page">Contact</a></li>
-			      </ul>
-			    </div>
-			  </div>
-		</nav>
-			<!-- MOBILE NAV -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Joel Lappalainen">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon_goose.jpg">
+	<title>Recycling in Otaniemi</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+</head>
 
-			<!-- DESKTOP NAV -->
-			<div class="row" id="brand-nav">
-				<div class="col-xs-12 col-sm-3">
-					<h1 id="brand"><a href="#first-page">Vespa</a>.</h1>
-				</div>
-				<div class="col-xs-12 col-sm-9" id="main-nav">
-					<nav>
-						<ul>
-							 <li id="main"><a class="colorChange" href="#first-page">Main</a></li>
-							 <li id="news"><a href="#second-page">News</a></li>
-							 <li id="animation_link"><a href="#animation">Animation</a></li>
-							 <li id="contact"><a href="#third-page">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-			<!-- DESKTOP NAV -->
+<body>
+	<div class="container-fluid" id="first-page">
 
-			<div class="row" id="slogan-wraper">
-				<div class="col-xs-12 col-sm-8 col-sm-offset-2" id="slogan">
-					New <span>autonomous</span> Vespa brand. We bring a vision for the future of motorcycles.
-				</div>
-			</div>
-		</div>
-
-		<!-- SECOND PAGE -->
-		<div class="container-fluid" id="second-page">
-			<div class="row">
-				<div class="content-area col-xs-12 col-sm-6 col-sm-offset-1">
-						<section>
-							<article class="basic-text">
-								<h2> Future News</h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
-							</article>
-						</section>
-						<div id="video_wraper" style="width: 100%">
-							<video id="video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="auto" height="400px" poster="media/poster.jpg" data-setup='{}'>
-							<source src="media/vespa1.mp4" type='video/mp4'>
-							<source src="media/vespa3.webm" type='video/webm'>
-							<source src="media/vespa2.ogv" type='video/ogg'>
-							<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-							<p><strong>Download Video:</strong>
-								Closed Format:	<a href="media/vespa1.mp4">"MP4"</a>
-								Open Format:	<a href="media/vespa2.ogv">"Ogg"</a>
-							</p>
-						</video>
-						</div>
-				</div>
-				<div id="napit"class="btn-group" role="group" aria-label="..." style="margin-top: 15px; margin-left: 20px; ">
-					  <button id="play"type="button" class="btn btn-danger"><span class="glyphicon glyphicon-play"></span></button>
-					  <button id="pause"type="button" class="btn btn-danger"><span class="glyphicon glyphicon-pause"></span></button>
-					  <button id="previous" type="button" class="btn btn-danger"><span class="glyphicon glyphicon-step-backward"></span></button>
-					  <button id="next"type="button" class="btn btn-danger"><span class="glyphicon glyphicon-step-forward"></span></button>
-				</div>
-				<div id="newsfeed" class="col-xs-12 col-sm-4">
-					<section>
-						<article class="basic-text col-xs-12 col-sm-12">
-							<h2 id="photo-name"></h2>
-							<div id="text-content"></div>
-						</article>
-					</section>
-
-					<div id="photofeed" class="content-area col-xs-12 col-sm-12" ></div>
-
-				</div>
-			</div>
-			<div id="flickr-section" class="container">
-				<div class="row"> <h2>Vespa photos from Flickr</h2></div>
-				<div class="row" style="display:flex;">
-					<div id="flickr-photos"></div>
-				</div>
-			</div>
-
-		</div>
-
-		<!--ANIMATION PAGE -->
-		<div class="container-fluid" id="animation">
-			<div class="row">
-				<div class="content-area col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1" style="margin-top: 30px">
-					<div id="game-buttons" class="col-sm-offset-1">
-						<button id="start" class="btn btn-danger">Play</button>
-						<button id="pause-game" class="btn btn-danger">Pause</button>
-						<button id="faster" class="btn btn-danger">Faster</button>
-						<button id="slower" class="btn btn-danger">Slower</button>
-						<span id="score" style="margin-left: 15px">My Score: <span></span></span><span id="game-info" style="padding-left: 15px"></span>
-
-					</div>
-					<canvas id="vespa_game" width="900" height="624"></canvas>
-					<button id="game" class="btn btn-danger">
-						<a href="project/game.html">Link to the game project</a>
+		<!-- MOBILE NAV -->
+		<nav class="navbar-default row" id="mobile-nav">
+			<div id="mobile-container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
+					<a class="navbar-brand" href="#first-page">DontBeAGoose.</a>
+				</div>
+				<div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav" id="dropdown">
+						<li>
+							<a href="#first-page" class="color-change">Main</a>
+						</li>
+						<li>
+							<a href="#second-page">News</a>
+						</li>
+						<li>
+							<a href="#third-page">Contact</a>
+						</li>
+					</ul>
 				</div>
 			</div>
+		</nav>
+		<!-- MOBILE NAV -->
+
+		<!-- DESKTOP NAV -->
+		<div class="row" id="brand-nav">
+			<div class="col-xs-12 col-sm-3">
+				<h1 id="brand">
+					<a href="#first-page">DontBeAGoose</a>.</h1>
+			</div>
+			<div class="col-xs-12 col-sm-9" id="main-nav">
+				<nav>
+					<ul>
+						<li id="main">
+							<a class="colorChange" href="#first-page">Main</a>
+						</li>
+						<li id="news">
+							<a href="#second-page">News</a>
+						</li>
+						<li id="contact">
+							<a href="#third-page">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
-		<!--ANIMATION PAGE -->
+		<!-- DESKTOP NAV -->
 
-		<!-- THIRD PAGE -->
-		<div class="container-fluid" id="third-page">
-
-				<div class=" row content-area col-sm-offset-1">
-					<section class="col-sm-5">
-						<article class="basic-text" style="color: white">
-							<h2>Our story</h2>
-							onsectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat voluerat vehicula risus, eu suscipit sem libero nec erat.suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat voluerat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, voluerat vehicula risus, eu suscipit sem libero nec erat.suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipi
-						</article>
-					</section>
-
-					<img class="col-sm-6" src="images/26206290144_6dc51fb0bd_z.jpg" alt="Our Team photo" style="margin: 15px; width: 50%">
-
-				</div>
-				<div class="content-area col-sm-offset-1">
-				<div class=" content-area col-xs-12 col-sm-6">
-					<img  class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
-					<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
-						<li>Name: Joel Lappalainen</li>
-						<li>Title: CEO</li>
-						<li>Phone: 054023482384</li>
-						<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
-					</ul>
-				</div>
-				<div class="content-area col-xs-12 col-sm-6">
-					<img  class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
-					<ul class="col-sm-6 col-xs-6 basic-text" style="color: white">
-					<li>Name: Joel Lappalainen</li>
-						<li>Title: CEO</li>
-						<li>Phone: 054023482384</li>
-						<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
-					</ul>
-				</div>
-
-				<div class="content-area col-xs-12 col-sm-6">
-					<img  class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
-					<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
-					<li>Name: Joel Lappalainen</li>
-						<li>Title: CEO</li>
-						<li>Phone: 054023482384</li>
-						<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.  </li>
-					</ul>
-				</div>
-				<div class="content-area col-xs-12 col-sm-6">
-					<img  class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
-					<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
-				<li>Name: Joel Lappalainen</li>
-						<li>Title: CEO</li>
-						<li>Phone: 054023482384</li>
-						<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
-					</ul>
-				</div>
-				</div>
+		<div class="row" id="slogan-wraper">
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2" id="slogan">
+				New
+				<span>autonomous</span> Vespa brand. We bring a vision for the future of motorcycles.
+			</div>
 		</div>
+	</div>
 
-		<!-- FOOTER -->
-
-		<div class="container-fluid">
-			<div class="row" id="footer">
-				<footer class="col-sm-10 col col-sm-offset-1">
-						<p>&copy; Copyright 2015 by <span class="vcard">
-							<span class="fn">Joel Lappalainen</span>
-							<span class="email">joel.lappalainen@gmail.com</span><span class="org"> Aalto-yliopisto</span><span class="country"> Finland</span>
-						</span>
+	<!-- SECOND PAGE -->
+	<div class="container-fluid" id="second-page">
+		<div class="row">
+			<div class="content-area col-xs-12 col-sm-6 col-sm-offset-1">
+				<section>
+					<article class="basic-text">
+						<h2> Future News</h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula
+						eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae,
+						consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl
+						ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero
+						nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi
+						tortor magna condimentum vel, placerat id blandit sit amet tortor.
+					</article>
+				</section>
+				<div id="video_wraper" style="width: 100%">
+					<video id="video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="auto" height="400px"
+					  poster="media/poster.jpg" data-setup='{}'>
+						<!-- <source src="media/vespa1.mp4" type='video/mp4'>
+						<source src="media/vespa3.webm" type='video/webm'>
+						<source src="media/vespa2.ogv" type='video/ogg'> -->
+						<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
 						</p>
-				</footer>
+						<p>
+							<!-- <strong>Download Video:</strong>
+							Closed Format:
+							<a href="media/vespa1.mp4">"MP4"</a>
+							Open Format:
+							<a href="media/vespa2.ogv">"Ogg"</a> -->
+						</p>
+					</video>
+				</div>
 			</div>
-		</div	>
+			<div id="napit" class="btn-group" role="group" aria-label="..." style="margin-top: 15px; margin-left: 20px; ">
+				<button id="play" type="button" class="btn btn-danger">
+					<span class="glyphicon glyphicon-play"></span>
+				</button>
+				<button id="pause" type="button" class="btn btn-danger">
+					<span class="glyphicon glyphicon-pause"></span>
+				</button>
+				<button id="previous" type="button" class="btn btn-danger">
+					<span class="glyphicon glyphicon-step-backward"></span>
+				</button>
+				<button id="next" type="button" class="btn btn-danger">
+					<span class="glyphicon glyphicon-step-forward"></span>
+				</button>
+			</div>
+			<div id="newsfeed" class="col-xs-12 col-sm-4">
+				<section>
+					<article class="basic-text col-xs-12 col-sm-12">
+						<h2 id="photo-name"></h2>
+						<div id="text-content"></div>
+					</article>
+				</section>
+
+				<div id="photofeed" class="content-area col-xs-12 col-sm-12"></div>
+
+			</div>
+		</div>
+		<div id="flickr-section" class="container">
+			<div class="row">
+				<h2>Vespa photos from Flickr</h2>
+			</div>
+			<div class="row" style="display:flex;">
+				<div id="flickr-photos"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<!--ANIMATION PAGE -->
+	<!-- <div class="container-fluid" id="animation">
+		<div class="row">
+			<div class="content-area col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1" style="margin-top: 30px">
+			</div>
+		</div>
+	</div> -->
+	<!--ANIMATION PAGE -->
+
+	<!-- THIRD PAGE -->
+	<div class="container-fluid" id="third-page">
+
+		<div class=" row content-area col-sm-offset-1">
+			<section class="col-sm-5">
+				<article class="basic-text" style="color: white">
+					<h2>Our story</h2>
+					onsectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut
+					felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero
+					nec erat. Aliquam erat voluerat vehicula risus, eu suscipit sem libero nec erat.suspendisse potenti. Lorem ipsum ligula
+					ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat voluerat vehicula risus,
+					eu suscipit sem libero nec erat. Aliquam erat Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer
+					porttitor pede. Fusce purus morbi tortor magna condimentum vel, voluerat vehicula risus, eu suscipit sem libero nec
+					erat.suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipi
+				</article>
+			</section>
+
+			<img class="col-sm-6" src="images/26206290144_6dc51fb0bd_z.jpg" alt="Our Team photo" style="margin: 15px; width: 50%">
+
+		</div>
+		<div class="content-area col-sm-offset-1">
+			<div class=" content-area col-xs-12 col-sm-6">
+				<img class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
+				<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
+					<li>Name: Joel Lappalainen</li>
+					<li>Title: CEO</li>
+					<li>Phone: 054023482384</li>
+					<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
+				</ul>
+			</div>
+			<div class="content-area col-xs-12 col-sm-6">
+				<img class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
+				<ul class="col-sm-6 col-xs-6 basic-text" style="color: white">
+					<li>Name: Joel Lappalainen</li>
+					<li>Title: CEO</li>
+					<li>Phone: 054023482384</li>
+					<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
+				</ul>
+			</div>
+
+			<div class="content-area col-xs-12 col-sm-6">
+				<img class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
+				<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
+					<li>Name: Joel Lappalainen</li>
+					<li>Title: CEO</li>
+					<li>Phone: 054023482384</li>
+					<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. </li>
+				</ul>
+			</div>
+			<div class="content-area col-xs-12 col-sm-6">
+				<img class="people col-sm-6 col-xs-6" src="images/gosling.jpg" alt="Our CEO">
+				<ul class="col-sm-6 basic-text col-xs-6" style="color: white">
+					<li>Name: Joel Lappalainen</li>
+					<li>Title: CEO</li>
+					<li>Phone: 054023482384</li>
+					<li>Vision: ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+
+	<div class="container-fluid">
+		<div class="row" id="footer">
+			<footer class="col-sm-10 col col-sm-offset-1">
+				<p>&copy; Copyright 2015 by
+					<span class="vcard">
+						<span class="fn">Joel Lappalainen</span>
+						<span class="email">joel.lappalainen@gmail.com</span>
+						<span class="org"> Aalto-yliopisto</span>
+						<span class="country"> Finland</span>
+					</span>
+				</p>
+			</footer>
+		</div>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -217,24 +251,26 @@
 	<script type="text/javascript" src="js/enemy.js"></script>
 	<script type="text/javascript" src="js/animation.js"></script>
 	<script type="text/javascript">
-	    // Once the video is ready
-	    _V_("video_1").ready(function(){
-	        var myPlayer = this;    // Store the video object
-	        var aspectRatio = 9/16; // Make up an aspect ratios
-	        var overlaysAP = 1/2.35;
-	        function resizeVideoJS(){
-	          // Get the parent element's actual width
-	          //var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
-	          var width = $("#video_wraper").outerWidth();
-	          // Set width to fill parent element, Set height
-	          myPlayer.width(width).height( width * aspectRatio );
-	        }
-	        // wait for other scripts to change the parents width
-	        $(window).load(function(){
-	            resizeVideoJS(); // Initialize the function
-	            window.onresize = resizeVideoJS; // Call the function on resize
-	        });
-	    });
+		// Once the video is ready
+		_V_("video_1").ready(function () {
+			var myPlayer = this; // Store the video object
+			var aspectRatio = 9 / 16; // Make up an aspect ratios
+			var overlaysAP = 1 / 2.35;
+
+			function resizeVideoJS() {
+				// Get the parent element's actual width
+				//var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+				var width = $("#video_wraper").outerWidth();
+				// Set width to fill parent element, Set height
+				myPlayer.width(width).height(width * aspectRatio);
+			}
+			// wait for other scripts to change the parents width
+			$(window).load(function () {
+				resizeVideoJS(); // Initialize the function
+				window.onresize = resizeVideoJS; // Call the function on resize
+			});
+		});
 	</script>
-	</body>
+</body>
+
 </html>
