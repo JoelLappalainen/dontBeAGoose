@@ -51,7 +51,7 @@ a {
 }
 
 #third-page {
-	background: rgb(0, 0, 0);
+	background: #99cb9a;
 	border-bottom: 5px solid black;
 }
 
@@ -135,7 +135,7 @@ a {
 #slogan-wraper {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	font-size: 70px;
+	font-size: 55px;
 	margin-top: 120px;
 }
 
