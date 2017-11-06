@@ -23,9 +23,8 @@ a {
 
 #second-page {
 	background: rgb(255, 255, 255);
-	border-bottom: 5px solid black;
-	border-top: 5px solid black;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #animation {
@@ -52,7 +51,8 @@ a {
 
 #third-page {
 	background: #99cb9a;
-	border-bottom: 5px solid black;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #brand {
@@ -64,8 +64,14 @@ a {
 	font-size: 80px;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px;
+}
+
 .basic-text {
-	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
 }
 
 #game-buttons {
@@ -135,12 +141,13 @@ a {
 #slogan-wraper {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	font-size: 55px;
-	margin-top: 120px;
+	font-size: 40px;
+	margin-top: 60px;
+	margin-left: 100px;
 }
 
-#slogan-wraper div {
-	border-left: 10px solid #fff;
+#slogan {
+	margin-top: 50px;
 }
 
 #slogan span {
@@ -156,7 +163,8 @@ a {
 #flickr-section {}
 
 #flickr-photos {
-	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
 	flex: 1;
 }
 
@@ -177,8 +185,12 @@ body {
 	margin-bottom: 15px;
 }
 
-#newsfeed {
+/*#newsfeed {
 	border-left: 2px solid #ccc;
+}*/
+
+#video_wraper {
+	padding-top: 30px;
 }
 
 nav {
@@ -217,6 +229,12 @@ nav li a:hover {
 
 #footer {
 	background-color: black;
+	height: 100px;
+	text-align: center;
+	color: #CCC;
+	padding-top: 40px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
 }
 
 #news {
@@ -260,7 +278,7 @@ nav li a:hover {
 }
 
 
-/* 
+/*
 @media(max-width: 1092px) {
 	#animation {
 		display: none;
