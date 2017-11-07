@@ -3,12 +3,11 @@ a {
 }
 
 #goose {
-	position: fixed;
-	bottom:120px;
+	bottom:170px;
 }
 
 #first-page {
-	height: 100vh;
+	height: 90vh;
 }
 
 #second-page {
@@ -90,13 +89,13 @@ h2 {
 #slogan-wraper {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	font-size: 40px;
+	font-size: 38px;
 	margin-top: 60px;
 	margin-left: 100px;
 }
 
 #slogan {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 #slogan span {

@@ -20,7 +20,7 @@ $(document).ready(function() {
       $("#animation_link a").removeClass("colorChange");
       normalizeNavbar();
     }
-    if ($("#second-page").offset().top - $(window).scrollTop() < 530) {
+    if ($("#second-page").offset().top - $(window).scrollTop() < 500) {
       releaseNav = false;
       fixedNavbar();
       $("#news a").addClass("colorChange");
