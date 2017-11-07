@@ -1,12 +1,12 @@
 $(document).ready(function() {
   function fixedNavbar() {
     $("#brand-nav").addClass("fixed");
-    $("#brand").css("font-size", "50px");
+    $("#brand").css("font-size", "55px");
     $("nav ul").css("padding", "10px");
   }
   function normalizeNavbar() {
     $("#brand-nav").removeClass("fixed");
-    $("#brand").css("font-size", "80px");
+    $("#brand").css("font-size", "55px");
     $("nav ul").css("padding-top", "26px");
   }
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
       $("#animation_link a").removeClass("colorChange");
       normalizeNavbar();
     }
-    if ($("#second-page").offset().top - $(window).scrollTop() < 100) {
+    if ($("#second-page").offset().top - $(window).scrollTop() < 530) {
       releaseNav = false;
       fixedNavbar();
       $("#news a").addClass("colorChange");
